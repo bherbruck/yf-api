@@ -29,9 +29,7 @@ export interface Meta {
   scale: number
   priceHint: number
   currentTradingPeriod: CurrentTradingPeriod
-  tradingPeriods?:
-    | (TradingPeriod[] | null)[]
-    | null
+  tradingPeriods?: (TradingPeriod[] | null)[] | null
   dataGranularity: string
   range: string
   validRanges?: string[] | null
