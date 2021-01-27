@@ -5,6 +5,10 @@
   "repository": "https://www.github.com/bherbruck/yf-api",
   "author": "bherbruck <brennen.herbruck@gmail.com>",
   "license": "MIT",
+  "types": "index.d.ts",
+  "scripts": {
+    "prepublish": "tsc"
+  },
   "devDependencies": {
     "@types/node": "^14.14.22",
     "ts-node": "^9.1.1",
@@ -12,5 +16,23 @@
   },
   "dependencies": {
     "axios": "^0.21.1"
-  }
+  },
+  "keywords": [
+    "yahoo",
+    "finance",
+    "api",
+    "client",
+    "stocks",
+    "crypto",
+    "commodity",
+    "futures",
+    "trading",
+    "market",
+    "historical",
+    "intraday",
+    "daily",
+    "price",
+    "quote",
+    "data"
+  ]
 }
