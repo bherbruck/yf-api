@@ -1,11 +1,19 @@
 # yf-api
 
+`yf-api` is a JavaScript wrapper for the [Yahoo Finance](http://finance.yahoo.com/) charting REST API written in Node.js with TypeScript. You can use it to get the historical price information for any symbol that is charted on Yahoo Finance. It is meant to be very simple to use and outputs data in a readable format.
+
+## Installation
+
+```shell
+npm install yf-api
+```
+
 ## Usage
 
 ```typescript
-import { getQuotes } from 'yf-api'
+import yf from 'yf-api'
 
-getQuotes('msft', { interval: '1d', range: '3d' }).then(console.log)
+yf.getQuotes('msft', { interval: '1d', range: '3d' }).then(console.log)
 ```
 
 ## Output
