@@ -3,7 +3,7 @@
 ## Usage
 
 ```typescript
-import { getQuotes } from '../src'
+import { getQuotes } from 'yf-api'
 
 getQuotes('msft', { interval: '1d', range: '3d' }).then((data) => {
   console.log(JSON.stringify(data, null, 2))
