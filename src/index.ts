@@ -9,7 +9,7 @@ const apiClient = axios.create({ baseURL: API_URL })
 export async function getQuotes(
   symbol: string,
   options?: Partial<YahooFinanceOptions>
-): Promise<object[]> {
+): Promise<Quote[]> {
   const opts = Object.assign(
     {
       includePrePost: true,
