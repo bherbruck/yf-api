@@ -4,7 +4,7 @@ export interface YahooFinanceResponse {
 
 export interface Chart {
   result?: Result[] | null
-  error?: null
+  error?: ResultError | null
 }
 
 export interface ResultError {
