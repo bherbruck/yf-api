@@ -10,7 +10,7 @@
   "license": "MIT",
   "types": "index.d.ts",
   "scripts": {
-    "prepublish": "tsc"
+    "prepublish": "npm prune && tsc"
   },
   "devDependencies": {
     "@types/node": "^14.14.22",
