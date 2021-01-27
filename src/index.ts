@@ -26,7 +26,6 @@ export async function getQuotes(
 }
 
 function parseResponse(response: YahooFinanceResponse): Quote[] {
-  console.log(response)
   const timestamps = response.chart.result[0].timestamp
   const allQuotes = response.chart.result[0].indicators.quote[0]
   const quotes: Quote[] = timestamps.map((timestamp, index) => {
