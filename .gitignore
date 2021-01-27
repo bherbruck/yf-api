@@ -105,3 +105,6 @@ dist
 
 # editor settings
 .vscode/
+
+# local debug
+.local/
