@@ -7,6 +7,11 @@ export interface Chart {
   error?: null
 }
 
+export interface ResultError {
+  code?: string
+  description?: string
+}
+
 export interface Result {
   meta: Meta
   timestamp?: number[] | null
